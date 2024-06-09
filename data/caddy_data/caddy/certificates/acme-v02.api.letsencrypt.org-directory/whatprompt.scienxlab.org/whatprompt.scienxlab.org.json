@@ -1,0 +1,18 @@
+{
+	"sans": [
+		"whatprompt.scienxlab.org"
+	],
+	"issuer_data": {
+		"url": "https://acme-v02.api.letsencrypt.org/acme/cert/032d969a9c6cb7f01886fd196d6a6aed5683",
+		"ca": "https://acme-v02.api.letsencrypt.org/directory",
+		"renewal_info": {
+			"suggestedWindow": {
+				"start": "2024-08-07T20:22:46Z",
+				"end": "2024-08-09T20:22:46Z"
+			},
+			"_uniqueIdentifier": "kydGmAOpUWiOmNbEQkjbI79YlNI.Ay2Wmpxst_AYhv0ZbWpq7VaD",
+			"_retryAfter": "2024-06-10T03:02:48.266651345Z",
+			"_selectedTime": "2024-08-07T22:45:35Z"
+		}
+	}
+}
