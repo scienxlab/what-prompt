@@ -90,19 +90,12 @@ function readAPIKey() {
 async function sendPromptToAPI(prompt, spinnerId) {
   showSpinner(spinnerId);
 
-  const apiKey = API_KEY;
-  const response = await fetch('https://api.openai.com/v1/chat/completions', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'Authorization': `Bearer ${apiKey}`
-    },
-    body: JSON.stringify({
-      model: "gpt-3.5-turbo",
-      messages: [{"role": "user", "content": prompt}],
-      max_tokens: 256,
-      temperature: 0.0
-    })
+  const response = await fetch('/api/openai', {
+      method: 'POST',
+      headers: {
+          'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ "prompt": prompt })
   });
 
   try {
