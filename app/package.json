@@ -1,0 +1,15 @@
+{
+  "name": "what-prompt",
+  "version": "1.0.0",
+  "description": "A prompt engineering game",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Matt Hall",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
